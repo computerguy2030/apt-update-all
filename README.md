@@ -4,4 +4,15 @@ I could'nt find anything similar with a quick Google search so I hope this may h
 
 Future improvements possible but don't count on regular updates. Still a few features I could implement
 
-Note: passwords for sudo are taken from a "passwords" file in ~/.ssh
+Notes:
+###################################################################
+IMPORTANT SCRIPT WILL NOT WORK IF YOU DO NOT MODIFY:
+Passwords for sudo are taken from a "passwords" file in ~/.ssh
+Enter hosts to exclude in grep -ve "#exclude here" line and add additional with -e ""
+
+###################################################################
+
+Script performs:
+sudo -S apt-get update && sudo apt-get upgrade -y"
+
+Thanks to all the regex experts on Stackoverflow etc. helping noobs like me use grep 
