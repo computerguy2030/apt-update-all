@@ -12,7 +12,10 @@ Enter hosts to exclude in grep -ve "#exclude here" line and add additional with 
 
 ###################################################################
 
-Script performs:
-sudo -S apt-get update && sudo apt-get upgrade -y"
+Script performs: sudo -S apt-get update && sudo apt-get upgrade -y"
+
+To enable in any directory:
+alias update_all='bash /usr/bin/update_all.sh'
+add above line to ~/.bashrc or ~/.zshrc
 
 Thanks to all the regex experts on Stackoverflow etc. helping noobs like me use grep 
