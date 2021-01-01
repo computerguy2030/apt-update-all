@@ -1,4 +1,4 @@
-Hosts=$(grep -oP '(?<=Host ).*' ~/.ssh/config | grep -ve "")
+Hosts=$(grep -oP '(?<=Host ).*' ~/.ssh/config | grep -ve "#exclude here")
 echo ""
 echo $Hosts
 echo ""
